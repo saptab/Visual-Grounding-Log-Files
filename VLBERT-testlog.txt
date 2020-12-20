@@ -1,4 +1,3 @@
-(vl-bert) c828w038@cmlgrad07:~/Visual-grounding/VLBERT/VL-BERT
 $python refcoco/test.py --cfg cfgs/refcoco/base_gt_boxes_4x16G.yaml --ckpt model/pretrained_model/vl-bert-base-e2e.model --gpus 0 --result-path results-refcoco-Dec18 --result-name result-align
 Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
 /fs/classhomes/fall2020/cmsc828w/c828w038/Visual-grounding/VLBERT/VL-BERT/refcoco/../refcoco/function/config.py:178: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
